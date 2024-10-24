@@ -56,7 +56,7 @@ const FancyNav = () => {
  
       <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand >
             <img
               src={Logo}
               width="200"
@@ -80,7 +80,7 @@ const FancyNav = () => {
             <Nav className="me-auto"></Nav>
 
             <Nav>
-              <Nav.Link href="#deets">Login/Signup</Nav.Link>
+              <Nav.Link >Login/Signup</Nav.Link>
               <NavDropdown title="States" id="collapsible-nav-dropdown">
                 {states.map((state) => {
                   return (
@@ -91,7 +91,7 @@ const FancyNav = () => {
                 })}
               </NavDropdown>
 
-              <Nav.Link eventKey={2} href="#memes">
+              <Nav.Link eventKey={2} >
                 Wishlist
               </Nav.Link>
 
@@ -105,7 +105,7 @@ const FancyNav = () => {
                 })}
               </NavDropdown>
 
-              <Nav.Link eventKey={2} href="#memes">
+              <Nav.Link eventKey={2}>
                 My Bookings
               </Nav.Link>
             </Nav>
