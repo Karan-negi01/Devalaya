@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-// import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom"; 
 import './Navbar.css';
 
 const FancyNav = () => {
@@ -43,14 +43,14 @@ const FancyNav = () => {
     { id: 30, name: "Arunachal Pradesh" },
   ];
 
-  // const sanatanpart = [
-  //   { id: 201, name: "Hindu Calendar" },
-  //   { id: 202, name: "Hindu Festivals", path: "/Festivals" }, 
-  //   { id: 203, name: "Hindu Mantras" },
-  //   { id: 204, name: "Present Context" },
-  //   { id: 205, name: "Yug"},
-  //   { id: 206, name: "Scholars" },
-  // ];
+  const sanatanpart = [
+    { id: 201, name: "Hindu Calendar" },
+    { id: 202, name: "Hindu Festivals", path: "/Festivals" }, 
+    { id: 203, name: "Hindu Mantras" },
+    { id: 204, name: "Present Context" },
+    { id: 205, name: "Yug"},
+    { id: 206, name: "Scholars" },
+  ];
 
   return (
  
@@ -95,7 +95,7 @@ const FancyNav = () => {
                 Wishlist
               </Nav.Link>
 
-              {/* <NavDropdown title="Sanatan Center" id="collapsible-nav-dropdown">
+              <NavDropdown title="Sanatan Center" id="collapsible-nav-dropdown">
                 {sanatanpart.map((part) => {
                   return (
                     <NavDropdown.Item as={Link} to={part.path} key={part.id}>
@@ -103,7 +103,7 @@ const FancyNav = () => {
                     </NavDropdown.Item>
                   );
                 })}
-              </NavDropdown> */}
+              </NavDropdown>
 
               <Nav.Link eventKey={2}>
                 My Bookings

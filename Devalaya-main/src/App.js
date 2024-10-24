@@ -1,14 +1,14 @@
 import { Route, BrowserRouter, Routes } from "react-router-dom";
-import Templehome from "./Components/Admin/Templehome";
+// import Templehome from "./Components/Admin/Templehome";
 import Home from "./Components/Home/Home";
-import City from "./Components/Pages/City/City";
-import Locationtracker from "./Components/Pages/LocationTracker/Locationtracker";
-import Temple from "./Components/Pages/Temple/Temple";
-import Newtestcomp from "./Components/Temple_Admin/Newtestcomp";
-import TempleAdd from "./Components/Temple_Admin/Templeadd";
-import Templeupdate from "./Components/Temple_Admin/Templeupdate";
-import StatesHome from "./Components/Pages/State/StatesHome";
-import StateSingle from "./Components/Pages/State/StateSingle";
+// import City from "./Components/Pages/City/City";
+// import Locationtracker from "./Components/Pages/LocationTracker/Locationtracker";
+// import Temple from "./Components/Pages/Temple/Temple";
+// import Newtestcomp from "./Components/Temple_Admin/Newtestcomp";
+// import TempleAdd from "./Components/Temple_Admin/Templeadd";
+// import Templeupdate from "./Components/Temple_Admin/Templeupdate";
+// import StatesHome from "./Components/Pages/State/StatesHome";
+// import StateSingle from "./Components/Pages/State/StateSingle";
 // import Festivals from "./Components/Sanatan Center/Festivals";
 
 function App() {
@@ -19,9 +19,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
 
-          <Route path="/allstates" element={<StatesHome />} />
+          {/* <Route path="/allstates" element={<StatesHome />} />
 
-          {/* <Route path="/Festivals" element={<Festivals/>}/> */}
+          <Route path="/Festivals" element={<Festivals/>}/>
 
           <Route path="/state/:id" element={<StateSingle />} />
 
@@ -37,7 +37,7 @@ function App() {
 
           <Route path="/test" element={<Newtestcomp />} />
 
-          <Route path="/mapping" element={<Locationtracker />} />
+          <Route path="/mapping" element={<Locationtracker />} /> */}
 
         </Routes>
       </BrowserRouter>
