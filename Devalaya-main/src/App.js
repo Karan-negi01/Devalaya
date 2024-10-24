@@ -9,7 +9,7 @@ import TempleAdd from "./Components/Temple_Admin/Templeadd";
 import Templeupdate from "./Components/Temple_Admin/Templeupdate";
 import StatesHome from "./Components/Pages/State/StatesHome";
 import StateSingle from "./Components/Pages/State/StateSingle";
-import Festivals from "./Components/Sanatan Center/Festivals";
+// import Festivals from "./Components/Sanatan Center/Festivals";
 
 function App() {
   console.log("Name", process.env.REACT_APP_NAME);
@@ -21,7 +21,7 @@ function App() {
 
           <Route path="/allstates" element={<StatesHome />} />
 
-          <Route path="/Festivals" element={<Festivals/>}/>
+          {/* <Route path="/Festivals" element={<Festivals/>}/> */}
 
           <Route path="/state/:id" element={<StateSingle />} />
 
